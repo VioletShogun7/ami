@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 15px;
+    align-items: center;
+    background-color: grey;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50px;
+    height: 100px;
+}
+.follow-bt button{
+    margin-left: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(93, 149, 218);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+}
+.follow-bt button:hover{
+    box-shadow: 0.5px 0.5px 3px black;
+    font-size: 17px;
+    background-color: rgb(91, 211, 78);
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.unfollow-bt button{
+    margin-left: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(32, 117, 88);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 1px 1px 3px black;
+    transition: all ease-in-out 0.2s;
+}
+.unfollow-bt button:active{
+    background-color: brown;
+    box-shadow: none;
+    margin-left: 31px;
+    margin-top: 6px;
+    transition: all ease-in-out 0.2s'
+}
+.profile-bt button{
+    margin-left: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: brown;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+

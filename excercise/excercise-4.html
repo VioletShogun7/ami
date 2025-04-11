@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+        .bt a{
+            font-size: 20px;
+            padding-right: 2px;
+            padding-left: 2px;
+        }
+        .bt .back{
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        .bt .next{
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        .bt-stretch button{
+            margin-top: 20px;
+            border: none;
+            color: white;
+            background-color: green;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: all ease-in-out 0.3s;
+        }
+        .bt-stretch button:hover{
+            transition: all ease-in-out 0.3s;
+            padding: 20px 30px;
+        }
+        .bt-click button{
+            margin-top: 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            cursor: pointer;
+            box-shadow: 3px 3px 5px rgb(106, 101, 101);
+            transition: all ease-in-out 0.1s;
+        }
+        .bt-click button:active{
+            margin-left: 2px;
+            margin-top: 22px;
+            box-shadow: 3px 3px 3px rgb(106, 101, 101);
+            box-shadow: none;
+            transition: all ease-in-out 0.1s;
+        }
+        .mar-pad{
+            margin-top: 20px;
+        }
+        .mar-pad button{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 7px 12px;
+            margin-left: 5px;
+            margin-right: 5px;
+            transition: all ease-in-out 0.3s;
+        }
+        .mar-pad button:hover{
+            padding: 7px 18px;
+            transition: all ease-in-out 0.3s;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="bt">
+        <button class="back">Back</button>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <button class="next">Next</button>
+    </div>
+    <div class="bt-stretch">
+        <button>Stretch</button>
+    </div>
+    <div class="bt-click">
+        <button>Shadow</button>
+    </div>
+    <div class="mar-pad">
+        <button>One</button>
+        <button>Two</button>
+        <button>Three</button>
+    </div>
+</body>
+</html>
